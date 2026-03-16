@@ -18,7 +18,7 @@ class DentalinkInfoController extends AbstractController
     }
 
     /**
-     * @Route("/dentalink/info", name="app_dentalink_info")
+     * @Route("/", name="app_dentalink_info")
      */
     public function index(): Response
     {
